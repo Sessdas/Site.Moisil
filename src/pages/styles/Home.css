@@ -45,6 +45,8 @@
   }
 
   #mainLogo {
+    margin-top: auto;
+    margin-bottom: auto;
     width: 35vw;
     transition: all 1s ease-in-out;
     justify-self: center;
