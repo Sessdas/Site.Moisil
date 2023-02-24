@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="NavbarLogo">Urmașii lui Moisil</div>
         <div className="NavbarLinks">
           <Link className="NavbarLink" to="/">Home</Link>
-          <Link className="NavbarLink" to="/blogs">News</Link>
+          <Link className="NavbarLink" to="/news">News</Link>
           <Link className="NavbarLink" to="/contact">Contact</Link>
         </div>
         <button className="menu-button" onClick={toggleMenu}>
