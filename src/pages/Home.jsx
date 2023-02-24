@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Home.css';
-import { Logos } from '../components';
+import { Logos, Footer } from '../components';
 
 const Home = () => {
   return (
@@ -20,12 +20,17 @@ const Home = () => {
       <h1>Cine suntem?</h1>
       <div className='divider2' />
       <h2>Lorem ipsum dolor sit amet.</h2>
+
+      <h1>Cine suntem?</h1>
+      <div className='divider2' />
+      <h2>Lorem ipsum dolor sit amet.</h2>
       </div>
       <br />
       <br />
       <br />
       <br />
       <br />
+      <Footer />
     </div>
   );
 };

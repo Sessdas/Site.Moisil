@@ -1,7 +1,8 @@
     import Navbar from "./Navbar";
     import Logos from "./Logos";
-
-
-export {
-    Navbar,  Logos,
-}
+    import Footer from "./Footer";
+    export {
+        Navbar,
+        Logos,
+        Footer,
+    }
