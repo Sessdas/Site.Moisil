@@ -10,8 +10,8 @@ const Home = () => {
         <div className="container">
           <img id='mainLogo' src={require('./assets/logov1.png')} alt='Logo' />
           <div className='typewriter'>
-            <h1 className='text1'>Grigore Moisil</h1>
-            <h2 className='text2'>Parintele informaticii romanesti</h2>
+            <h1 className='text1'>Grigore C. Moisil</h1>
+            <h2 className='text2'>Părintele informaticii românești</h2>
           </div>
         </div>
       </div>

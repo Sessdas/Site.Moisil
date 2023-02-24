@@ -20,7 +20,7 @@
   
   .divider1{
     border: 1px solid #ffbb00;
-    width: 95vw;
+    width: 98vw;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -46,13 +46,16 @@
 
   #mainLogo {
     width: 35vw;
-    transition: all 1s ease-in-out;
-    margin-left: 20px;
+    justify-self: center;
   }
   
   .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transition: all 1s ease-in-out;
   }
   
 
@@ -65,22 +68,20 @@
   
   .text1 {
     margin-right: 20px;
-    font-size: 6.5vw;
+    font-size: 7.7vw;
     color:  white;
     margin: 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 1s forwards;
-    transition: all 1s ease-in-out;
   }
   
   .text2 {
-    margin-right: 20px;
-    font-size: 1.8vw;
+    margin-right: 160px;
+    font-size: 2vw;
     color: white;
     margin: 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 2s forwards;
-    transition: all 1s ease-in-out;
   }
 
   
@@ -112,12 +113,20 @@
 
   @media (max-width: 768px) {
   
+    #mainLogo {
+      width: 35vw;
+      transition: all 1s ease-in-out;
+      margin-left: 25px;
+    }
+
     .text1 {
       font-size: 40px;
+      margin-right: 20px;
     }
   
     .text2 {
       font-size: 20px;
+      margin-right: 20px;
     }
 
     .body{
