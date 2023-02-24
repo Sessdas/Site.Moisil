@@ -46,6 +46,7 @@
 
   #mainLogo {
     width: 35vw;
+    transition: all 1s ease-in-out;
     justify-self: center;
   }
   
@@ -73,6 +74,7 @@
     margin: 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 1s forwards;
+    transition: all 1s ease-in-out;
   }
   
   .text2 {
@@ -82,6 +84,7 @@
     margin: 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 2s forwards;
+    transition: all 1s ease-in-out;
   }
 
   
