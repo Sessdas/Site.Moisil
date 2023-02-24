@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="NavbarContainer">
-        <div className="NavbarLogo">Concursul Național de Informatică Urmașii lui Moisil</div>
+        <div className="NavbarLogo">Urmașii lui Moisil</div>
         <div className="NavbarLinks">
           <Link className="NavbarLink" to="/">Home</Link>
           <Link className="NavbarLink" to="/blogs">News</Link>

@@ -1,10 +1,6 @@
 .NavbarContainer {
-  background-color: black;
+  background-color: #141e30;
   color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,19 +71,10 @@
   }
   
   .menu-list {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(20, 30, 48, .88);
   height: 100%;
-  margin-top: 0px;
-  position: fixed;
-  top: 0;
+  position: absolute;
   right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  overflow-y: auto;
-  padding: 20px;
   transform: translateX(100%);
   transition: all .5s ease-in-out;
   display: none;
@@ -107,13 +94,15 @@
   padding: 12px;
   margin-bottom: 2vw;
   }
+
+  .menu-section:hover{
+    background-color: #ffbb00;
+  }
   
   @media (max-width: 768px) {
   .menu-list {
-  margin-right: 0%;
-  margin-left: 24%;
   display: flex;
-  width: 70%;
+  width: 50%;
   height: 100%;
   margin-top: 70px;
   flex-direction: column;
@@ -121,7 +110,6 @@
   }
   
   .NavbarContainer {
-    background-color: black;
     color: white;
     position: fixed;
     top: 0;
@@ -146,6 +134,7 @@
   }
   
   .menu-list.open {
+    margin-top: 60px;
   transform: translateX(0);
   transition-duration: .7s;
   }
@@ -157,3 +146,7 @@
   text-decoration: none;
   font-size: 28px;
   } 
+
+  .menu-link:hover{
+    color: white;
+  }

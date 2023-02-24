@@ -1,5 +1,5 @@
   .bgNews {
-    background-image: url('./assets/bg2.png');
+    background-image: url('../assets/bg2.png');
     margin: 0%;
     position: relative;
     height: 54vw;
@@ -9,7 +9,7 @@
 }
 
   .newsHeader {
-    background-color: #1a1a1a;
+    background-color: #141e30;
     padding: 1rem;
     text-align: center;
     padding: 0%;
