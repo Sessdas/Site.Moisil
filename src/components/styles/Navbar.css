@@ -1,0 +1,159 @@
+.NavbarContainer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #ffbb00;
+  z-index: 20;
+  }
+  
+  .NavbarLogo {
+  user-select: none;
+  font-size: 30px;
+  margin-right: 20px;
+  }
+  
+  .NavbarLinks {
+  display: flex;
+  }
+  
+
+
+  a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  z-index: 2;
+  transition-duration: .4s;
+  }
+  
+  a:hover {
+  color: #ffbb00;
+  transition-duration: .4s;
+  }
+  
+  .NavbarLink {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  }
+  
+  .menu-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  outline: none;
+  padding: 10px;
+  display: none;
+  }
+  
+  @media (max-width: 768px) {
+  .NavbarLinks {
+  display: none;
+  }
+  
+  .menu-button {
+  display: block;
+  }
+  }
+  
+  .menu-button:hover {
+  color: #ffbb00;
+  }
+  
+  .NavbarLogo:hover {
+  color: white;
+  }
+  
+  .menu-list {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: auto;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: all .5s ease-in-out;
+  display: none;
+  z-index: 2;
+  }
+
+  .NavbarLogo {
+    user-select: none;
+    font-size: 25px;
+    margin-right: 0px;
+    }
+  
+  .menu-section {
+  border-bottom: #ffbb00 1px solid;
+  width: 95%;
+  margin-right: 12px;
+  padding: 12px;
+  margin-bottom: 2vw;
+  }
+  
+  @media (max-width: 768px) {
+  .menu-list {
+  margin-right: 0%;
+  margin-left: 24%;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  margin-top: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  .NavbarContainer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ffbb00;
+    }
+
+  a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-size: 52px;
+  z-index: 2;
+  transition-duration: .4s;
+  }
+  }
+  
+  .menu-list.open {
+  transform: translateX(0);
+  transition-duration: .7s;
+  }
+  
+  .menu-link {
+  
+  color: white;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 28px;
+  } 

@@ -1,0 +1,116 @@
+.bg1 {
+    background-image: url('./assets/bg1.png');
+    position: relative;
+    height: 100vw;
+    transition: height 1s ease-in-out;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+#mainLogo.fadeInUp {
+    animation-fill-mode: forwards;
+}
+
+#mainLogo.fadeInUp.finish ~ .bg1 {
+    height: 100vw;
+}
+#mainLogo {
+    user-select: none;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    animation: fadeInUp 1s ease-in-out;
+    animation-fill-mode: forwards;
+    transition: width 1s ease-in-out;
+    z-index: -1;
+}   
+
+#mainLogo.finish {
+    width: 100vw;
+}
+
+#mainLogo.finish ~ .bg1 {
+    height: 100vh;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+.divider1 {
+    background-color: transparent;
+    border-top: #ffbb00 solid;
+    height: 10%;
+    width: 95%;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider2 {
+    margin-top: 0;
+    background-color: white;
+    height: 4px;
+    width: 30%;
+    margin-bottom: 2vh;
+    margin-left: 10%;
+}
+
+h1 {
+    margin-top: 2%;
+    font-size: 100px;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+h2 {
+    margin-top: 0%;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  
+@media (max-width: 768px) {
+
+      #mainLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+
+    h1{
+        margin-top: 2%;
+        font-size: 60px;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 0%;
+    }
+
+
+    .bg1{
+        background-image: url('./assets/bg1.png');    
+        height: 80vw;     
+        box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+}
