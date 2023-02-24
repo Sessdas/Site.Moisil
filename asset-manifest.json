@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Boz-Razvan/Site.Moisil.git/static/css/main.043b9146.css",
+    "main.js": "/Boz-Razvan/Site.Moisil.git/static/js/main.3bbe60d2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Boz-Razvan/Site.Moisil.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img.kids.comp.jpg": "/Boz-Razvan/Site.Moisil.git/static/media/img.kids.comp.04fc2b794c944f2c11f0.jpg",
+    "static/media/bg2.png": "/Boz-Razvan/Site.Moisil.git/static/media/bg2.8ff4abf7e2a2fa4258ec.png",
+    "static/media/bg1.webp": "/Boz-Razvan/Site.Moisil.git/static/media/bg1.fe3bde6af7da8636944a.webp",
+    "static/media/logov1.png": "/Boz-Razvan/Site.Moisil.git/static/media/logov1.4a4649eecfdc85bd8cf3.png",
+    "static/media/ATLaurian.webp": "/Boz-Razvan/Site.Moisil.git/static/media/ATLaurian.882258a217898fe19ffb.webp",
+    "static/media/Sepi_logo_XBJVm5fIV6.webp": "/Boz-Razvan/Site.Moisil.git/static/media/Sepi_logo_XBJVm5fIV6.79d200699942f8643638.webp",
+    "static/media/sepi.webp": "/Boz-Razvan/Site.Moisil.git/static/media/sepi.79d200699942f8643638.webp",
+    "index.html": "/Boz-Razvan/Site.Moisil.git/index.html",
+    "main.043b9146.css.map": "/Boz-Razvan/Site.Moisil.git/static/css/main.043b9146.css.map",
+    "main.3bbe60d2.js.map": "/Boz-Razvan/Site.Moisil.git/static/js/main.3bbe60d2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Boz-Razvan/Site.Moisil.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043b9146.css",
+    "static/js/main.3bbe60d2.js"
+  ]
+}
