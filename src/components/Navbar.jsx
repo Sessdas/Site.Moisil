@@ -21,13 +21,9 @@ const Navbar = () => {
         </button>
       </nav>
       <div className={`menu-list ${menuOpen ? "open" : ""}`}>
-        <div className="menu-section">
-          <Link className="menu-link" to="/">Home</Link></div>
-          <div className="menu-section">
-          <Link className="menu-link" to="/blogs">News</Link></div>
-          <div className="menu-section">
-          <Link className="menu-link" to="/contact">Contact</Link>
-        </div>
+        <Link className="menu-link" to="/"><div className="menu-section">Home</div></Link>
+        <Link className="menu-link" to="/blogs"><div className="menu-section">News</div></Link>
+        <Link className="menu-link" to="/contact"> <div className="menu-section">Contact</div></Link>
       </div>
       <Outlet />
     </>

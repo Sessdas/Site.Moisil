@@ -9,16 +9,15 @@ import News from "./pages/News";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route index element={<Home />} />
-          <Route path="blogs" element={<News />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
+        <Route key="home" path="/" element={<Home className="page-transition" />} />
+        <Route key="blogs" path="blogs" element={<News className="page-transition" />} />
+        <Route key="contact" path="contact" element={<Contact className="page-transition" />} />
+        <Route key="noPage" path="*" element={<NoPage className="page-transition" />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
-export default App
+export default App;

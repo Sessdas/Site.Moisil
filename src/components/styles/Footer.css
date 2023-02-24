@@ -1,4 +1,5 @@
 .footer {
+  position: absolute;
   border-top: 2px solid #ffbb00;
   width: 98vw;
   background-color: #141e30;
@@ -7,7 +8,6 @@
   position: absolute;
   bottom: 0;
   padding-top: 40px;
-  padding-bottom: 0px;
   height: 60px;
 }
 

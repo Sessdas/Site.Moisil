@@ -1,7 +1,8 @@
 .NavbarContainer {
   background-color: #141e30;
   position: fixed;
-  width: 100vw;
+  width: 98vw;
+  top: 0;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -21,7 +22,42 @@
   display: flex;
   }
   
+  .NavbarLink {
+    position: relative;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .NavbarLink::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #ffbb00;
+    transform: scaleX(0);
+    transition: right 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .NavbarLink:hover::after {
+    transform: scaleX(1);
+  }
 
+  .NavbarLink:hover::before{
+      right: 0;
+  }
+  
+  
+  .NavbarLink:hover {
+    color: #ffbb00;
+    transition: all .3s ease-in-out;
+  }
+  
 
   a {
   color: white;
@@ -35,12 +71,6 @@
   a:hover {
   color: #ffbb00;
   transition-duration: .4s;
-  }
-  
-  .NavbarLink {
-  color: white;
-  margin-right: 20px;
-  text-decoration: none;
   }
   
   .menu-button {
@@ -76,6 +106,7 @@
   background-color: rgba(20, 30, 48, .88);
   height: 100%;
   position: fixed;
+  top: 0;
   right: 0;
   transform: translateX(100%);
   transition: all .5s ease-in-out;
@@ -91,15 +122,33 @@
   
   .menu-section {
   border-bottom: #ffbb00 1px solid;
-  width: 95%;
-  margin-right: 12px;
+  width: 100%;
   padding: 12px;
-  margin-bottom: 2vw;
+  padding: 30px;
+  font-size: 42px;
+  overflow: hidden;
+  transition: background-position 0.3s ease-in-out;
   }
 
-  .menu-section:hover{
+  .menu-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
     background-color: #ffbb00;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
   }
+  
+  .menu-section:hover::before {
+    left: 0;
+  }
+
   
   @media (max-width: 768px) {
     .NavbarContainer{
@@ -133,22 +182,24 @@
   color: white;
   position: relative;
   text-decoration: none;
-  font-size: 52px;
+  font-size: 62px;
   z-index: 2;
   transition-duration: .4s;
   }
   }
   
   .menu-list.open {
-  margin-top: 60px;
+  position: fixed;
+  top: 2px;
+  background-color: rgba(20, 30, 48, .88);
+  backdrop-filter: blur(10px);
   transform: translateX(0);
   transition-duration: .7s;
   }
   
   .menu-link {
-  
+  width: 100%;
   color: white;
-  margin-bottom: 30px;
   text-decoration: none;
   font-size: 28px;
   } 
