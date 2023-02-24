@@ -1,5 +1,7 @@
 .NavbarContainer {
   background-color: #141e30;
+  position: fixed;
+  width: 100vw;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -100,11 +102,15 @@
   }
   
   @media (max-width: 768px) {
+    .NavbarContainer{
+      width: 96vw;
+    }
+
   .menu-list {
   display: flex;
   width: 50%;
   height: 100%;
-  margin-top: 70px;
+  margin-top: 60px;
   flex-direction: column;
   align-items: flex-start;
   }
@@ -134,7 +140,7 @@
   }
   
   .menu-list.open {
-    margin-top: 60px;
+  margin-top: 60px;
   transform: translateX(0);
   transition-duration: .7s;
   }

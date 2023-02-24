@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles/Home.css';
+import { Logos } from '../components';
 
 const Home = () => {
   return (
     <div className='Page'>
+      <Logos />
       <div className='bg1'>
         <div className="container">
           <img id='mainLogo' src={require('./assets/logov1.png')} alt='Logo' />

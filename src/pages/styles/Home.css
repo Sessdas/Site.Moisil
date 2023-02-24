@@ -44,6 +44,7 @@
   #mainLogo {
     width: 35vw;
     transition: all 1s ease-in-out;
+    margin-left: 20px;
   }
   
   .container{
@@ -60,19 +61,23 @@
   }
   
   .text1 {
-    font-size: 150px;
+    margin-right: 20px;
+    font-size: 6.5vw;
     color:  white;
     margin: 0;
     opacity: 0;
-    animation: fadeIn 2s ease-in-out 1s forwards;
+    animation: fadeIn 1.5s ease-in-out 1s forwards;
+    transition: all 1s ease-in-out;
   }
   
   .text2 {
-    font-size: 40px;
+    margin-right: 20px;
+    font-size: 1.8vw;
     color: white;
     margin: 0;
     opacity: 0;
-    animation: fadeIn 2s ease-in-out 3s forwards;
+    animation: fadeIn 1.5s ease-in-out 2s forwards;
+    transition: all 1s ease-in-out;
   }
 
   
@@ -103,9 +108,6 @@
 
 
   @media (max-width: 768px) {
-    #mainLogo {
-      margin-right: 10px;
-    }
   
     .text1 {
       font-size: 40px;

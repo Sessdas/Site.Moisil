@@ -1,0 +1,16 @@
+.warp{
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    height: 300px;
+    position: fixed;
+    z-index: 3;
+    margin-left: 20px;
+}
+
+img{
+    border-radius: 200px;
+    width: 80px;
+}
