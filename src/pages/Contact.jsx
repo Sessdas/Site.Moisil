@@ -9,7 +9,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Implement your email sending logic here
+    //mail API
     console.log(`Sending email with name: ${name}, email: ${email}, message: ${message}`);
     setName('');
     setEmail('');

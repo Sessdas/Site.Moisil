@@ -8,6 +8,7 @@ import News from "./pages/News";
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -17,6 +18,7 @@ function App() {
         <Route key="noPage" path="*" element={<NoPage className="page-transition" />} />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 
