@@ -20,7 +20,7 @@
   
   .divider1{
     border: 1px solid #ffbb00;
-    width: 98vw;
+    width: 100vw;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -50,7 +50,7 @@
     width: 35vw;
     transition: all 1s ease-in-out;
     justify-self: center;
-    animation: fadeIn 1s;
+    animation: fadeIn 2s;
   }
   
   .container{
