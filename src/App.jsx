@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route key="home" path="/" element={<Home className="page-transition" />} />
-        <Route key="blogs" path="blogs" element={<News className="page-transition" />} />
+        <Route key="blogs" path="news" element={<News className="page-transition" />} />
         <Route key="contact" path="contact" element={<Contact className="page-transition" />} />
         <Route key="noPage" path="*" element={<NoPage className="page-transition" />} />
       </Routes>
